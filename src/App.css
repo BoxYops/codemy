@@ -69,5 +69,34 @@
   color: #000000;
   justify-content: center;
 }
+.productBox {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.productBox li {
+  text-align: center;
+}
+
+.productBox a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.productBox a:hover {
+  color: #61dafb;
+}
+
+.productLink:hover img {
+  border: 2px solid #61dafb;
+}
+
+.productImage {
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  width: 250px;
+}
 
 
